@@ -1,0 +1,16 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  static_files: source/congress.html
+  upload: source/congress.html
+
+- url: .*?/hw8\.php
+  script: source/hw8.php
+
+- url: /(.*\.(js|css|html)$)
+  static_files: source/\1
+  upload: source/.*\.(js|css|html)$
+
+

@@ -1,1 +1,4 @@
-# Automatic-Job-Hunting-System-
+appengine-php-guestbook
+================================
+
+Guestbook demo for Google App Engine that uses PHP
